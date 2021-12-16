@@ -1,0 +1,33 @@
+.btn {
+    font-size: 14px;
+
+    &:focus {
+        box-shadow: none!important;
+    }
+}
+.btn.btn-radius {
+    border-radius: 12px;
+}
+.btn.btn-red {
+    background-color: $red;
+    color: white;
+}
+.btn.btn-outline-red-white {
+    border: 1px solid $red;
+    color: white;
+
+    &:hover {
+        background-color: $red;
+        color: white;
+    }
+}
+a.btn-href {
+    color: white;
+    outline: none;
+
+    &:hover {
+        color: white;
+        text-decoration: underline;
+        border-bottom: 1px solie white;
+    }
+}
