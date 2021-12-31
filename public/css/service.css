@@ -1,0 +1,137 @@
+.service .banner {
+  margin-top: 15px;
+}
+.service .banner img {
+  width: 100% !important;
+}
+.service .slogan {
+  margin-top: 61px;
+}
+.service .slogan .item {
+  text-align: center;
+}
+.service .slogan .item .logo {
+  width: 203px;
+  height: 180px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #9FA0A0;
+  color: #3E3A39;
+  font-size: 16px;
+  margin-bottom: 44px;
+  display: flex;
+}
+.service .slogan .item .title {
+  font-weight: bold;
+  font-size: 36px;
+}
+.service .head-title.red .part-center {
+  color: white !important;
+}
+.service .head-title.red .line {
+  background-color: #D83656 !important;
+}
+.service .head-title.red .diamond {
+  background-color: white !important;
+}
+.service .introduce {
+  margin-top: 68px;
+}
+.service .introduce > .item {
+  text-align: center;
+  color: #3E3A39;
+}
+.service .introduce > .item .logo {
+  margin-top: 41px;
+  margin-bottom: 50px;
+}
+.service .introduce > .item .title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.service .goodness {
+  margin-top: 84px;
+}
+.service .goodness .item {
+  padding-top: 58px;
+  padding-bottom: 63px;
+  background-image: linear-gradient(to right, #727171 0%, #727171 50%, transparent 0%);
+  background-size: 22px 1px;
+  background-repeat: repeat-x;
+}
+.service .goodness .item:first-child {
+  background-image: none;
+}
+.service .goodness .item .title {
+  color: #5678c5;
+  font-size: 24px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.service .goodness .item .boduy {
+  position: relative;
+}
+.service .goodness .item .boduy:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #5678c5;
+  position: absolute;
+  top: 50%;
+  left: -15px;
+}
+.service .system {
+  background-image: url("/img/bg_system.jpg");
+  color: white;
+  height: 653px;
+  padding-top: 75px;
+  padding-bottom: 66px;
+  text-align: center;
+}
+.service .system .item {
+  margin-left: 104px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.service .system .item .body {
+  width: 263px;
+  height: 325px;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 165px;
+}
+.service .system .item:first-child {
+  margin-left: 0;
+}
+.service .system .item .dotted {
+  margin: 18px 30px;
+}
+.service .system .item .title {
+  font-size: 23px;
+}
+.service .system .body-1 {
+  background-image: url("/img/bg_system_1.png");
+}
+.service .system .body-2 {
+  background-image: url("/img/bg_system_2.png");
+}
+.service .system .body-3 {
+  background-image: url("/img/bg_system_3.png");
+}
+.service .dotted {
+  height: 1px;
+  background-image: linear-gradient(to right, white 0%, white 50%, transparent 0%);
+  background-size: 22px 1px;
+  background-repeat: repeat-x;
+}
+.service .process {
+  padding-top: 95px;
+  padding-bottom: 122px;
+  text-align: center;
+}
+.service .process .head-title {
+  margin-bottom: 58px;
+}
+.service .process .logo {
+  margin-top: 74px;
+}

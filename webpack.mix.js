@@ -13,4 +13,19 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .react()
-    .sass('resources/sass/app.scss', 'public/css');
+    .sass('resources/sass/app.scss', 'public/css/common.css')
+    .sass('resources/sass/home/app.scss', 'public/css/home.css')
+    .sass('resources/sass/service/app.scss', 'public/css/service.css')
+    .sass('resources/sass/contact/app.scss', 'public/css/contact.css')
+    .sass('resources/sass/aboutus/app.scss', 'public/css/aboutus.css')
+    .sass('resources/sass/jobs/app.scss', 'public/css/jobs.css')
+    ;
+
+mix.styles([
+    'public/css/common.css',
+    'public/css/home.css',
+    'public/css/service.css',
+    'public/css/contact.css',
+    'public/css/aboutus.css',
+    'public/css/jobs.css',
+], 'public/css/app.css');

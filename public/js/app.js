@@ -27579,10 +27579,75 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
+/***/ "./resources/sass/jobs/app.scss":
+/*!**************************************!*\
+  !*** ./resources/sass/jobs/app.scss ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/sass/app.scss":
 /*!*********************************!*\
   !*** ./resources/sass/app.scss ***!
   \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/home/app.scss":
+/*!**************************************!*\
+  !*** ./resources/sass/home/app.scss ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/service/app.scss":
+/*!*****************************************!*\
+  !*** ./resources/sass/service/app.scss ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/contact/app.scss":
+/*!*****************************************!*\
+  !*** ./resources/sass/contact/app.scss ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/aboutus/app.scss":
+/*!*****************************************!*\
+  !*** ./resources/sass/aboutus/app.scss ***!
+  \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -58988,7 +59053,12 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
-/******/ 			"css/app": 0
+/******/ 			"css/aboutus": 0,
+/******/ 			"css/contact": 0,
+/******/ 			"css/service": 0,
+/******/ 			"css/home": 0,
+/******/ 			"css/common": 0,
+/******/ 			"css/jobs": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -59038,8 +59108,13 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/aboutus","css/contact","css/service","css/home","css/common","css/jobs"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/aboutus","css/contact","css/service","css/home","css/common","css/jobs"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/aboutus","css/contact","css/service","css/home","css/common","css/jobs"], () => (__webpack_require__("./resources/sass/home/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/aboutus","css/contact","css/service","css/home","css/common","css/jobs"], () => (__webpack_require__("./resources/sass/service/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/aboutus","css/contact","css/service","css/home","css/common","css/jobs"], () => (__webpack_require__("./resources/sass/contact/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/aboutus","css/contact","css/service","css/home","css/common","css/jobs"], () => (__webpack_require__("./resources/sass/aboutus/app.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/aboutus","css/contact","css/service","css/home","css/common","css/jobs"], () => (__webpack_require__("./resources/sass/jobs/app.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

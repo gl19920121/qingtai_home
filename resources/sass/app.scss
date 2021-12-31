@@ -1,8 +1,348 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
 @import 'variables';
 
+// Buttons
+@import 'buttons';
+
+// Figures
+@import 'figures';
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// Color
+.red {
+    color: $red !important;
+}
+.gray {
+    color: $gray !important;
+}
+.gray-light {
+    color: $gray-light !important;
+}
+
+// app
+body {
+    height: 100%;
+    width: $width-body;
+    min-width: $width-body;
+    font-family: "Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+    font-size: $fs-base;
+    color: $gray!important;
+    background-color: white!important;
+    //overflow-x: scroll;
+    //overflow-y: scroll;
+}
+input {
+    &:focus {
+        box-shadow: none!important;
+    }
+}
+a {
+    outline: none!important;
+    text-decoration: none!important;
+
+    &:hover {
+        outline: none!important;
+        text-decoration: none!important;
+    }
+}
+p {
+    margin-bottom: 0!important;
+}
+ul {
+    margin-left: 0;
+}
+ul.inline {
+    list-style: none;
+
+    li {
+        display: inline;
+    }
+}
+.inline {
+    display: inline;
+}
+.inline-block {
+    display: inline-block;
+}
+.icon {
+    width: 23px;
+    height: 23px;
+}
+.logo-company {
+    width: $logo-diam;
+    height: $logo-diam;
+    overflow: hidden;
+    border: 1px solid $red;
+    padding: 2.5px;
+
+    img {
+        width: calc($logo-diam - 7px);
+        height: calc($logo-diam - 7px);
+    }
+}
+
+.logo-company.default {
+    position: relative;
+
+    img {
+        position: absolute;
+        left: 3px;
+        top: 10px;
+    }
+}
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.table-auto {
+    td {
+        word-break:keep-all; /* for ie */
+        white-space:nowrap; /* for chrome */
+    }
+}
+.head-title {
+    .part-left {
+        margin-right: 37px;
+        position: relative;
+        padding-right: 14px;
+    }
+
+    .part-right {
+        margin-left: 37px;
+        position: relative;
+    }
+
+    .part-center {
+        font-size: $fs-28;
+        color: $gray;
+    }
+
+    .line {
+        width: 148px;
+        height: 1px;
+        background-color: $red;
+        display: inline-block;
+    }
+
+    .diamond {
+        display: inline-block;
+        position: absolute;
+        top: calc(50% - 1px);
+    }
+}
+.cup {
+    font-size: $fs-16;
+    color: black;
+
+    .cup-item {
+        width: 174px;
+        height: 185px;
+        background-color: white;
+        box-shadow: 2px 2px 5px $gray-light, 1px 1px 3px $gray-light inset;
+    }
+}
+.partner {
+    .partner-item {
+        width: 200px;
+        height: 114px;
+        border: 1px solid $gray-light;
+        text-align: center;
+        padding: 5px;
+
+        img {
+            max-height: 100%;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+    }
+}
+.label {
+    color: white;
+    font-size: $fs-14;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+.urgent {
+    background-color: $red;
+}
+.bluecollar {
+    background-color: $blue;
+}
+.milkround {
+    background-color: $green;
+}
+.headhunter {
+    background-color: $yellow;
+}
+
+// container
+.container {
+    //width: 100%!important;
+    //max-width: 100%!important;
+    //padding-left: 5%;
+    //padding-right: 5%;
+    //margin-left: $space;
+    //margin-right: $space;
+
+    //width: $width-container!important;
+    //min-width: $width-container!important;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+    > * {
+        > * {
+            > * {
+                width: $width-container!important;
+                min-width: $width-container!important;
+                margin-left: auto!important;
+                margin-right: auto!important;
+            }
+        }
+    }
+}
+
+// row
+.row {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+// header
+.navbar-cyan {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .nav {
+        width: $width-container;
+        min-width: $width-container;
+        //margin-left: $space;
+        //margin-right: $space;
+    }
+
+    .navbar-nav {
+        overflow: hidden;
+        white-space: nowrap;
+        width: calc(98px * 7);
+
+        .nav-item {
+            display: inline-block;
+            overflow: hidden;
+            text-align: center;
+
+            .nav-link {
+                width: 98px;
+                height: 55px;
+                color: white;
+                line-height: 55px;
+                padding: 0;
+            }
+
+            &:hover {
+                background-color: $red;
+            }
+        }
+        .nav-item.active {
+            background-color: $red;
+        }
+    }
+}
+.bg-cyan {
+    background-color: $cyan;
+}
+
+// footer
+.footer {
+    color: white;
+    padding-top: 21px;
+    background-color: $gray-2;
+
+    .top {
+        width: 100%;
+        height: 90px;
+        background-image: url("/img/bg_footer_contact.png");
+        background-size: cover;
+
+        .top-body {
+            width: $width-container!important;
+            min-width: $width-container!important;
+        }
+
+        > .row {
+            height: 100%;
+
+            .col {
+                &:first-child {
+                    margin-right: 88px;
+                }
+            }
+        }
+    }
+
+    .detail {
+        width: 100%;
+        background-color: $cyan;
+        color: $gray-dark;
+        font-size: 14px;
+        padding-top: 47px;
+        padding-bottom: 129px;
+
+        .detail-body {
+            width: $width-container!important;
+            min-width: $width-container!important;
+        }
+
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .divider {
+            height: 1.25px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            background-color: $gray-dark;
+            opacity: 0.5;
+        }
+
+        .qrcode {
+            .item {
+                margin-left: 53px;
+
+                img {
+                    padding: 10px;
+                    border: 1px solid white;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: white;
+                    margin-top: 24px;
+                }
+            }
+        }
+    }
+}

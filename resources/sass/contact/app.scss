@@ -1,0 +1,45 @@
+// Variables
+@import '../variables';
+
+.contact {
+    padding-bottom: 133px;
+
+    .banner {
+        color: white;
+        background-image: url("/img/bg_contact.jpg");
+        background-repeat:no-repeat;
+        background-size: auto 100%;
+        height: calc(397px + 60px);
+
+        .body {
+            height: 100%;
+
+            .part-text {
+                font-size: $fs-15;
+
+                .title {
+                    font-size: $fs-40;
+                }
+            }
+            .part-img {
+                margin-left: 85px;
+
+                img {
+                    margin-bottom: -60px;
+                }
+            }
+        }
+    }
+
+    .logo {
+        margin-top: 134px;
+
+        .btn-submit {
+            margin-top: 50px;
+        }
+    }
+
+    .info {
+        margin-top: 80px;
+    }
+}

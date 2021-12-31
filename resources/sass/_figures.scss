@@ -1,0 +1,10 @@
+.diamond {
+    width: 14px;
+    height: 14px;
+    background: $red;
+    -webkit-transform: rotate(45deg);  //Webkit / Safari / Chrome
+    -moz-transform: rotate(45deg);  //Firefox
+    -ms-transform: rotate(45deg);  //Internet Explorer
+    -o-transform: rotate(45deg);  //Opera
+    transform: rotate(45deg);
+}

@@ -1,0 +1,24 @@
+.aboutus {
+  text-align: center;
+  padding-top: 10px;
+}
+.aboutus .banner {
+  background-image: url("/img/banner_qingtai.jpg");
+  height: 446px;
+}
+.aboutus .qingtai {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.aboutus .honour {
+  background-color: #F6F6F6;
+  padding-top: 61px;
+  padding-bottom: 34px;
+}
+.aboutus .danghui {
+  padding-top: 66px;
+  padding-bottom: 54px;
+}
+.aboutus .note {
+  font-size: 14px;
+}
