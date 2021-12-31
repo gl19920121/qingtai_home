@@ -1,0 +1,187 @@
+.home {
+  padding-top: 30px;
+}
+.home .type-title .item {
+  width: 100%;
+  height: 58px;
+  font-size: 16px;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.home .type-title .item p {
+  text-align: right;
+  line-height: 58px;
+  margin-right: 60px;
+}
+.home .type-title .hot {
+  background-image: url("/img/bg_jobs_hot.png");
+}
+.home .type-title .hunter {
+  background-image: url("/img/bg_jobs_hunter.png");
+}
+.home .type-title .blue {
+  background-image: url("/img/bg_jobs_blue.png");
+}
+.home .type-title .means {
+  background-image: url("/img/bg_jobs_means.png");
+}
+.home .type-tab {
+  margin-top: 35px;
+  border-bottom: 1px solid #9FA0A0;
+}
+.home .type-tab .tab-body {
+  margin-bottom: 24px;
+}
+.home .type-tab .tab .item {
+  margin-right: 30px;
+}
+.home .type-tab .tab .item a {
+  color: #231815;
+  padding-bottom: 25px;
+}
+.home .type-tab .tab .item a:hover {
+  border-bottom: 2px solid #D83656;
+}
+.home .type-tab .tab .item.active a {
+  color: #D83656;
+  font-weight: bold;
+  border-bottom: 2px solid #D83656;
+}
+.home .type-tab.type-tab-white {
+  border-bottom: 1px solid white;
+  color: white !important;
+}
+.home .type-tab.type-tab-white .tab .item a:hover {
+  border-bottom: 2px solid white;
+}
+.home .type-tab.type-tab-white .tab .item.active a {
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+.home .list .job .job-item {
+  min-height: 232px;
+  max-height: 400px;
+  padding: 26px 24px;
+  margin-top: 18px;
+  border: 1px solid #9FA0A0;
+  box-shadow: 2px 2px 5px #9FA0A0, 1px 1px 3px #9FA0A0 inset;
+  color: #3E3A39;
+}
+.home .list .job .job-item p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.home .list .job .job-item .job-name {
+  width: 150px;
+  margin-right: 22px;
+}
+.home .list .job .job-item .job-salary {
+  width: auto;
+  margin-left: 14px;
+}
+.home .list .job .job-item .job-tag {
+  margin-top: 18px;
+}
+.home .list .job .job-item .job-tag .tag {
+  margin-left: 8px;
+}
+.home .list .job .job-item .job-tag .tag:first-child {
+  margin-left: 0;
+}
+.home .list .job .job-item .job-tag .tag-item {
+  color: #9FA0A0;
+  font-size: 14px;
+  border: 1px solid #9FA0A0;
+  padding: 3px 12px;
+  border-radius: 5px;
+}
+.home .list .job .job-item .job-detail {
+  margin-top: 16px;
+}
+.home .list .job .job-item .job-detail .detail-item {
+  margin-left: 24px;
+}
+.home .list .job .job-item .job-detail .detail-item:first-child {
+  margin-left: 0;
+}
+.home .list .job .job-item .part-job-info {
+  height: 144px;
+  padding-bottom: 22px;
+  border-bottom: 1px dashed #9FA0A0;
+}
+.home .list .job .job-item .part-job-info > .row {
+  margin-bottom: 16px;
+}
+.home .list .job .job-item .part-company-info {
+  height: auto;
+  padding-top: 14px;
+}
+.home .list .job .job-item .part-company-info .company-info {
+  margin-left: 15px;
+}
+.home .list .job .job-item .part-company-info .company-info .note {
+  font-size: 14px;
+  color: #9FA0A0;
+}
+.home .list .job .job-item .part-company-info .company-info .note > span:before {
+  content: "|";
+  padding: 2px 7px;
+}
+.home .list .job .job-item .part-company-info .company-info .note > span:first-child:before {
+  content: "";
+  padding: 0;
+}
+.home .list .job .job-item .label {
+  margin-left: 26px;
+  margin-right: 17px;
+}
+.home .list .job .job-item .title {
+  font-size: 18px;
+  color: black;
+}
+.home .honorwall {
+  background-color: #F7F8F8;
+  padding-top: 45px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+}
+.home .honorwall .cup {
+  margin-top: 34px;
+}
+.home .feature {
+  background-color: #D83656;
+  padding-top: 44px;
+  padding-bottom: 78px;
+  color: white !important;
+}
+.home .feature .feature-detail {
+  margin-top: 45px;
+}
+.home .feature .feature-detail .title {
+  font-size: 21px;
+}
+.home .feature .feature-detail .note {
+  font-size: 14px;
+}
+.home .icon-round {
+  width: 48px;
+  height: 48px;
+  padding: 9px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.home .feature-detail-table td:nth-child(2) {
+  padding-left: 23px;
+}
+.home .feature-detail-table td:nth-child(2) .note:first-child {
+  margin-top: 33px;
+}
+.home .feature-detail-table td:nth-child(2) .note:nth-child(2) {
+  margin-top: 18px;
+}
+.home .partner {
+  padding-bottom: 125px;
+}

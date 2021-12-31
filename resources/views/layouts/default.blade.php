@@ -12,7 +12,7 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-        <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_3016653_zrx55fw5h2.css">
+        <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_3016653_ql8trkm48f.css">
         <script src="{{ mix('js/app.js') }}"></script>
     </head>
 

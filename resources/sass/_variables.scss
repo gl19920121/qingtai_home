@@ -9,7 +9,45 @@ $line-height-base: 1.6;
 // Colors
 $red: #D83656;
 $cyan: #2F3239;
-$gray: #B5B5B6;
+$gray: #3E3A39;
+$gray-2: #F0F2F5;
+$gray-3: #F6F6F6;
+$gray-4: #898989;
+$gray-5: #FAFAFC;
+$gray-6: #40454B;
+$gray-7: #EFEFEF;
+$gray-dark: #B5B5B6;
+$gray-light: #9FA0A0;
+$gray-cyan: #F7F8F8;
+$gray-dark-2: #727171;
+$black-carbon: #231815;
+$blue: #4FA6FF;
+$blue-2: #5678c5;
+$blue-3: #535F77;
+$green: #22AF5E;
+$yellow: #F8B62D;
 
 // FontSize
+$fs-base: 18px;
 $fs-14: 14px;
+$fs-15: 15px;
+$fs-16: 16px;
+$fs-18: 18px;
+$fs-20: 20px;
+$fs-21: 21px;
+$fs-23: 23px;
+$fs-24: 24px;
+$fs-28: 28px;
+$fs-30: 30px;
+$fs-32: 32px;
+$fs-36: 36px;
+$fs-40: 40px;
+
+// Size
+//$width-body: 1920px;
+//$width-body: calc(100vw - 20px);
+$width-body: 100%;
+$width-container: 1400px;
+//$space: 260px;
+$space: calc(100% - 1400px);
+$logo-diam: 47px;
